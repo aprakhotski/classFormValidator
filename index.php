@@ -5,6 +5,7 @@
 	echo "<pre>";
 	print_r($_POST);
 	echo "</pre>";
+	
 */	
 	if(isset($_POST['submit'])){ 
 		$validation = new FormValidator($_POST);
